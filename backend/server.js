@@ -5,7 +5,7 @@ const passportConfig = require('./lib/passportConfig');
 const cors = require('cors');
 const fs = require('fs');
 
-// MongoDB
+// MongoDB connect
 mongoose
 	.connect(
 		'mongodb+srv://admin:admin@cluster0.jrpkr.mongodb.net/JobData?retryWrites=true&w=majority',
